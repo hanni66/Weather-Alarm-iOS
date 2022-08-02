@@ -18,6 +18,7 @@
 		2AE7E89628899CBB00B46581 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7E89528899CBB00B46581 /* FirstView.swift */; };
 		2AE7E8982889A03D00B46581 /* Ssound1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7E8972889A03D00B46581 /* Ssound1.swift */; };
 		2AE7E89A2889A04700B46581 /* Ssound2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7E8992889A04700B46581 /* Ssound2.swift */; };
+		2AE7E89C28995C8200B46581 /* SettingVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AE7E89B28995C8200B46581 /* SettingVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		2AE7E89528899CBB00B46581 /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
 		2AE7E8972889A03D00B46581 /* Ssound1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ssound1.swift; sourceTree = "<group>"; };
 		2AE7E8992889A04700B46581 /* Ssound2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ssound2.swift; sourceTree = "<group>"; };
+		2AE7E89B28995C8200B46581 /* SettingVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				2AE7E89528899CBB00B46581 /* FirstView.swift */,
 				2AE7E88A28899BF800B46581 /* MainView.swift */,
 				2AE7E88C28899C6200B46581 /* SettingView.swift */,
+				2AE7E89B28995C8200B46581 /* SettingVM.swift */,
 				2AE7E88E28899C6800B46581 /* SettingView */,
 				2A3D69B1287E754A00FBD21C /* Assets.xcassets */,
 				2A3D69B3287E754A00FBD21C /* Preview Content */,
@@ -173,6 +176,7 @@
 				2AE7E89A2889A04700B46581 /* Ssound2.swift in Sources */,
 				2AE7E89028899C9000B46581 /* SLabel.swift in Sources */,
 				2AE7E8982889A03D00B46581 /* Ssound1.swift in Sources */,
+				2AE7E89C28995C8200B46581 /* SettingVM.swift in Sources */,
 				2A3D69AE287E754800FBD21C /* Weather_AlarmApp.swift in Sources */,
 				2AE7E89228899C9A00B46581 /* Ssound.swift in Sources */,
 			);

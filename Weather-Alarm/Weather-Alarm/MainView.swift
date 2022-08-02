@@ -16,7 +16,7 @@ struct MainView: View {
         Button("+") {   // settingView(sheetView)가 나타남.
             showingSettingSheet.toggle()
         }.sheet(isPresented: $showingSettingSheet){
-            SettingView()
+//            SettingView(isPresented: true, SettingVM: SettingVM)
         }
         Text("표로 알람 나타내기")
     }

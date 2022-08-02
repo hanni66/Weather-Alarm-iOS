@@ -11,7 +11,7 @@ import SwiftUI
 struct Weather_AlarmApp: App {
     var body: some Scene {
         WindowGroup {
-            MainView()
+            SettingView()
         }
     }
 }
