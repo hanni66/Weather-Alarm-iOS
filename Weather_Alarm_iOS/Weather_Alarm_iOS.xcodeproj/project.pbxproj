@@ -15,6 +15,7 @@
 		2AB98D5128AFB41100A9C07C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AB98D4F28AFB41100A9C07C /* LaunchScreen.storyboard */; };
 		2AB98D5A28AFB57D00A9C07C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB98D5928AFB57D00A9C07C /* FirstViewController.swift */; };
 		2AB98D5C28AFB59A00A9C07C /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB98D5B28AFB59A00A9C07C /* SettingViewController.swift */; };
+		2AB98D5F28AFB67300A9C07C /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 2AB98D5E28AFB67300A9C07C /* Lottie */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AB98D5F28AFB67300A9C07C /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +99,9 @@
 			dependencies = (
 			);
 			name = Weather_Alarm_iOS;
+			packageProductDependencies = (
+				2AB98D5E28AFB67300A9C07C /* Lottie */,
+			);
 			productName = Weather_Alarm_iOS;
 			productReference = 2AB98D4128AFB41000A9C07C /* Weather_Alarm_iOS.app */;
 			productType = "com.apple.product-type.application";
@@ -125,6 +130,9 @@
 				Base,
 			);
 			mainGroup = 2AB98D3828AFB41000A9C07C;
+			packageReferences = (
+				2AB98D5D28AFB67300A9C07C /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 2AB98D4228AFB41000A9C07C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -374,6 +382,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2AB98D5D28AFB67300A9C07C /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2AB98D5E28AFB67300A9C07C /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2AB98D5D28AFB67300A9C07C /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2AB98D3928AFB41000A9C07C /* Project object */;
 }
