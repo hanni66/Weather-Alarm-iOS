@@ -50,12 +50,28 @@ class ViewController: UIViewController {
         return showTimeBtn
     }()
     
+    // 버튼
+    lazy var selectTimeBtn: UIButton = {
+        let selectTimeBtn = UIButton()
+        selectTimeBtn.setTitle("시간을 선택하는 버튼", for: .normal)     // 버튼에 들어갈 글씨
+        selectTimeBtn.backgroundColor = .white       // 버튼 색상
+//        showTimeBtn.setTitleColor(.darkGreen, for: .normal) // 버튼 글씨 색상
+        selectTimeBtn.layer.cornerRadius = 5
+        selectTimeBtn.layer.borderWidth = 1
+//        selectTimeBtn.layer.borderColor = UIColor.darkGreen?.cgColor
+        selectTimeBtn.layer.cornerRadius = (15)
+        selectTimeBtn.translatesAutoresizingMaskIntoConstraints = false
+//        selectTimeBtn.addTarget(self, action: #selector(connectionAction), for: .touchUpInside)
+        return selectTimeBtn
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.view.addSubview(self.mainText)
         self.view.addSubview(self.settingBtn)
         self.view.addSubview(self.showTimeBtn)
+        self.view.addSubview(self.selectTimeBtn)
     }
 
 
