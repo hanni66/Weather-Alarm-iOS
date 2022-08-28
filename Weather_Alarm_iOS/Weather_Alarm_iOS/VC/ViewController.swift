@@ -20,11 +20,23 @@ class ViewController: UIViewController {
         return mainText
     }()
     
+    // Weather-Alarm
+    lazy var mainWeatherText: UILabel = {
+        let mainWeatherText = UILabel()
+        mainWeatherText.textColor = .black
+        mainWeatherText.font = UIFont(name: "NotoSansKR-Bold", size: 20)
+        mainWeatherText.font = UIFont.systemFont(ofSize: 30)
+        mainWeatherText.text = "날씨 알람"
+        mainWeatherText.sizeToFit()
+        return mainWeatherText
+    }()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.view.addSubview(self.mainText)
+        self.view.addSubview(self.mainWeatherText)
     }
 
 
